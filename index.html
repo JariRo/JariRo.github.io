@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="uft-8" />
+    <title>Pixel Perfect To Do List</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="Description" content="To Do list for Pixel Perfect Capgemini" />
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+
+  <body>
+    <main id="wrapper" class=" darkMode">
+      <header>
+        <h1>
+          TO DO LIST
+        </h1>
+        <div id="input-container">
+          <label for="tem-name-input"></label>
+          <input id="item-name-input" type="text" value="" placeholder="Task" />
+          <button id="add-item" type="button" alt="add">add</button>
+        </div>
+      </header>
+
+      <section>
+        <ul id="todo-table"></ul>
+      </section>
+      <footer>
+        <p>Website designed and created for Pixel Perfect Frontend Capgemini</p>
+      </footer>
+    </main>
+
+    <script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("service-worker.js")
+            .then(registration => {
+              console.log("Service Worker is registered", registration);
+            })
+            .catch(err => {
+              console.log("Registration failed", err);
+            });
+        });
+      }
+    </script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>

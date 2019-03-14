@@ -1,0 +1,16 @@
+{
+  "short_name": "PXPERF 2DO",
+  "name": "Pixel Perfect To Do",
+  "description": "Simple To do list for Pixel Perfect at Capgemini",
+  "icons": [
+    {
+      "src": "/static/2DO_logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#374954",
+  "display": "standalone",
+  "theme_color": "#374954"
+}
