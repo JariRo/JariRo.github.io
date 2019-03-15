@@ -258,7 +258,7 @@ section > #todo-table > .table-row > button {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
@@ -327,7 +327,7 @@ footer {
 
   header > #input-container {
     grid-column: 2/10;
-    grid-row: 4/5;
+    grid-row: 3/4;
     display: grid;
     grid-template-columns: repeat(10, 3fr);
   }
@@ -338,5 +338,9 @@ footer {
 
   #add-item {
     box-shadow: none;
+  }
+
+  section {
+    grid-row-start: 7;
   }
 }
