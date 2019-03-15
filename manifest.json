@@ -4,12 +4,12 @@
   "description": "Simple To do list for Pixel Perfect at Capgemini",
   "icons": [
     {
-      "src": "/2DO_logo.png",
+      "src": "./2DO_logo.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "background_color": "#374954",
   "display": "standalone",
   "theme_color": "#374954"
