@@ -11,7 +11,7 @@ input,
 button,
 label {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  border-radius: none;
+  border-radius: 0;
 }
 
 input:focus,
@@ -46,11 +46,6 @@ header {
   left: 0;
   background: #374954;
   z-index: 1;
-}
-
-.appMode > header {
-  padding: 0;
-  box-shadow: none;
 }
 
 header > h1 {
@@ -256,6 +251,11 @@ footer {
 @media screen and (max-width: 48rem) {
   #wrapper.appMode {
     grid-row-gap: 3rem;
+  }
+
+  .appMode > header {
+    padding: 0;
+    box-shadow: none;
   }
 
   .appMode > header > h1 {
