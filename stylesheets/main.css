@@ -86,6 +86,7 @@ header > #input-container > #item-name-input {
 }
 
 header > #input-container > #item-name-input:focus {
+  font-size: 1.1rem;
   outline: none;
 }
 
