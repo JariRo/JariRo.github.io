@@ -8,7 +8,6 @@ if (workbox) {
   console.log("neeei workbox did not load");
 }
 
-/*
 workbox.precaching.precacheAndRoute([
   "/stylesheets/main.css",
   "js/main.js",
@@ -32,4 +31,3 @@ const precacheResources = [
   "js/main.js",
   "index.html",
 ];
-*/
